@@ -29,5 +29,3 @@ def extract_disease(patient_path, diseases=['Cystic Fibrosis', 'COVID', 'ABPA', 
         dis_df = dis_df.append(row, ignore_index=True)
 
     return dis_df
-
-
