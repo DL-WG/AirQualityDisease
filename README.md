@@ -59,9 +59,9 @@ Visualization:
 
 
 
-For area where have more patients data(>10 patients) and the correlation：
+For area where have more patients data(>3 patients) and the correlation：
 
 |      | Cystic Fibrosis | COVID  |  ABPA  | Asthma |
 | :--: | :-------------: | :----: | :----: | :----: |
 | NO2  |      0.148      | -0.059 | -0.186 | 0.781  |
-| PM25 |      0.108      | -0.27  | -0.13  |  0.84  |
+| PM25 |      0.130      | 0.046  | -0.018 | 0.143  |

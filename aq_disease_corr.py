@@ -3,7 +3,7 @@ import pandas as pd
 from scipy import stats
 
 
-def calc_corr(aq_path, dise_path, aq='no2', diseases=['Cystic Fibrosis', 'COVID', 'ABPA', 'Asthma'], min_patients=10):
+def calc_corr(aq_path, dise_path, aq='no2', diseases=['Cystic Fibrosis', 'COVID', 'ABPA', 'Asthma'], min_patients=3):
     df_aq = pd.read_excel(aq_path)
     df_dise = pd.read_excel(dise_path)
     # df_all = df_aq.merge(df_dise, on='postcode', how='left')
