@@ -57,3 +57,11 @@ Visualization:
 | NO2  |     -0.029      | -0.076 | -0.125 | -0.07  |
 | PM25 |     -0.076      | -0.108 | -0.163 | -0.119 |
 
+
+
+For area where have more patients data(>10 patients) and the correlation：
+
+|      | Cystic Fibrosis | COVID  |  ABPA  | Asthma |
+| :--: | :-------------: | :----: | :----: | :----: |
+| NO2  |      0.148      | -0.059 | -0.186 | 0.781  |
+| PM25 |      0.108      | -0.27  | -0.13  |  0.84  |
